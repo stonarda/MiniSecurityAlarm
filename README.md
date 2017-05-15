@@ -1,6 +1,6 @@
 === TEXT-CONTROLLED Security Alarm ===
 
-This uses the at90usb1286 microcontroller to implement a text controlled secutiry alarm. It is designed for the LaFortuna, a board built at the University of Southampton. The project uses the SIM800L GSM module for sendign and receiving text messages. It has a number of outputs to indicate system state.
+This uses the at90usb1286 microcontroller to implement a text controlled secutiry alarm. It is designed for the LaFortuna, a board built at the University of Southampton. The project uses the SIM800L GSM module for sending and receiving text messages. It has a number of outputs to indicate system state.
 
 => To use
 
