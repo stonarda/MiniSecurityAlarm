@@ -4,7 +4,9 @@ This uses the at90usb1286 microcontroller to implement a text controlled secutir
 
 => To use
 1- Enter number using up/down for change it and select to progress
+
 2- After entering number the LaFortuna will send a text confirming system is on
+
 3- Text 'ARM' to arm alarm or 'DISARM' to disarm alarm
 
 Note the disarm command will stop the alarm if its currently going off.
