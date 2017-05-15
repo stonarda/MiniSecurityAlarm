@@ -21,7 +21,7 @@
 #define BUZZER_OFF       PORTD &= ~_BV(PIND1)
 
 char userNumber[14] = "+440000000000";
-volatile uint8_t sensor, armed;
+volatile uint8_t sensor, armed, toSend = 0;
 
 void init(void)
 {
@@ -82,8 +82,6 @@ void sendMessage(char *message)
 	messageData[cnt+1] = '\0';
 	sendStr(messageData); // Message contents
 }
-
-volatile char toSend = 0;
 
 // Called on message receiving
 void gotMessage(char *data)
