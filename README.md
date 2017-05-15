@@ -45,7 +45,9 @@ If alarm goes off, you will be alerted via text.
     MakeFile and colours file with thanks to Klaus-Peter Zauner
     LCD libraries with thanks to Steve Gunn
 
-=> License My code is available using the MIT license.
+=> License 
+
+My code is available using the MIT license.
 
 Copyright 2017 Alexander Stonard
 
