@@ -40,6 +40,10 @@ If alarm goes off, you will be alerted via text.
 
     Run 'make' in the bash command line
 
+=> Future Verions
+
+    Improve error checking from GSM module (currently expects the setup to proceed without errors)
+
 => Code included from other sources
 
     MakeFile and colours file with thanks to Klaus-Peter Zauner
