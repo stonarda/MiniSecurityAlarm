@@ -137,24 +137,24 @@ void usart_Init(void (*toCallFun)(char*))
 void sync(void)
 {
 	char data[100];
-	sendStr("AT\r");
-
+	
 	do
 	{
+		sendStr("AT\r");
 		getStr(data);
 	} while(!strContain("OK", data));
 	
 	_delay_ms(100);
 	
-	sendStr("AT+CMGF=1\r");
 	do
 	{
+		sendStr("AT+CMGF=1\r");
 		getStr(data);
 	} while(!strContain("OK", data));
-	
-	sendStr("ATE01\r");
+
 	do
 	{
+		sendStr("ATE01\r");
 		getStr(data);
 	} while(!strContain("OK", data));
 	
@@ -175,4 +175,3 @@ void clearReceived(void)
 		receive[cnt] = '\0';
 	}
 }
-
