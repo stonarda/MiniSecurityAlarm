@@ -43,6 +43,7 @@ If alarm goes off, you will be alerted via text.
 => Future Verions
 
     Improve error checking from GSM module (currently expects the setup to proceed without errors)
+    Improve checking of data received from GSM module as very heavy in ISR currently
 
 => Code included from other sources
 
